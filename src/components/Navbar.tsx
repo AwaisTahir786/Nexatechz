@@ -37,12 +37,12 @@ function Navbar({ScrollGraphicsDesign,ScrollToBrands,ScrollToShopifySTore,Scroll
        </div>
 
         {/* navbar content */}
-        <div className='cursor-pointer hidden md:flex space-x-10 items-center
+        <div className='cursor-pointer hidden md:flex space-x-10 md:mr-10 items-center
          text-white bg-clip-text '>
   <div onClick={ScrollWebsiteDesign} className='hover:text-[#39FF14] '>Website Design</div>
   <div onClick={ScrollGraphicsDesign} className='hover:text-[#39FF14]'>Graphics Design</div>
-  <div onClick={ScrollToShopifySTore} className='hover:text-[#39FF14]'>Shopify Stores</div>
-  <div onClick={ScrollToBrands} className='hover:text-[#39FF14]'>Brands</div>
+  <div onClick={ScrollToShopifySTore} className='hover:text-[#39FF14]'>Pricing</div>
+  <div onClick={ScrollToBrands} className='hover:text-[#39FF14]'>Process</div>
   <Link href={"/pricing"} className='hover:text-[#39FF14]'>Pricing</Link>
 </div>
 
