@@ -3,7 +3,7 @@ import { PiAppStoreLogo, PiHeadsetFill, PiLock, PiMegaphone, PiMonitor, PiStoref
 
 export function CardHoverEffectDemo() {
   return (
-    <div className="max-w-5xl mx-auto px-8">
+    <div className="max-w-8xl mx-auto px-8">
       <HoverEffect items={projects} />
     </div>
   );
@@ -26,6 +26,13 @@ export const projects = [
       {
         icon : <div className="bg-white p-4 rounded-full"><PiLock className="w-8 h-8 text-blue-600" /></div>,
         title: "Logo Design",
+        description:
+          "Secure authentication solutions for your website or app. We use the latest technology to keep your data safe.",
+      
+      },
+      {
+        icon : <div className="bg-white p-4 rounded-full"><PiLock className="w-8 h-8 text-blue-600" /></div>,
+        title: "Marketing",
         description:
           "Secure authentication solutions for your website or app. We use the latest technology to keep your data safe.",
       
