@@ -7,7 +7,7 @@ const Easysteps = () => {
 <div
                 className="text-4xl font-bold md:text-4xl px-6 pb-2 text-center bg-clip-text text-[#39FF14] "
             >
-                A professional <span className='border-[#39FF14] border-2 text-white rounded-lg px-4 text-light font-none text-3xl py-1'>Logo</span>  in
+                A professional <span className='border-[#39FF14] border-2 text-white rounded-lg px-4 text-light font-none text-3xl py-1'>Logo</span> and <span className='border-[#39FF14] border-2 text-white rounded-lg px-4 text-light font-none text-3xl py-1'>Website</span>  in
                 three easy steps
 
             </div>

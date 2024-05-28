@@ -84,7 +84,7 @@ export default function Home() {
         </div>
         <Easysteps/>
         <Pricing/>
-        <Easystepsweb/>
+        {/* <Easystepsweb/> */}
         <Pricingweb/>
         
 
