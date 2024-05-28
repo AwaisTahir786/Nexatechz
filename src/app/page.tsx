@@ -8,7 +8,6 @@ import Services from "@/components/Services";
 import ShopifyStore from "@/components/ShopifyStore";
 import Sliderone from "@/components/Sliderone";
 import Website from "@/components/Website";
-import { Spotlight } from "@/components/ui/soptlight";
 import { CardHoverEffectDemo } from "./snippets/card-hover-snippet";
 import FAQ from "@/components/FAQ";
 import { useRef } from "react";
