@@ -27,7 +27,7 @@ function Navbar({ScrollGraphicsDesign,ScrollToBrands,ScrollToShopifySTore,Scroll
         <Link href={"/"}>
             <Image 
             priority
-            src="/logo/logo2.png"
+            src="/logo/logo.png"
             alt='logo'
             width={600}
             height={600}
