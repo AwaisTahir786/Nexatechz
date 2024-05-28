@@ -14,7 +14,7 @@ function HeroSection() {
           Receive your design and website under 48 hours, with unlimited revisions through your dedicated client portal. All logos are handcrafted by coffee-fueled designers.
         </p>
         <div className='flex flex-row justify-center items-center gap-4 mt-1 '>
-          <div>   <Link href="/book" className="flex items-center text-white font-bold hover:text-[#39FF14] justify-center px-6 py-2 mx-auto my-6 border-4 border-[#39FF14] rounded-lg cursor-pointer">
+          <div>   <Link href="https://wa.me/03114366363" className="flex items-center text-white font-bold hover:text-[#39FF14] justify-center px-6 py-2 mx-auto my-6 border-4 border-[#39FF14] rounded-lg cursor-pointer">
 
 Book a Call
 
