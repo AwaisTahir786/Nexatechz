@@ -4,7 +4,7 @@ import Sliderone from './Sliderone'
 
 function HeroSection() {
   return (
-    <div className="p-4 mx-auto relative z-10 w-full pt-8 md:pt-4 px-2">
+    <div className="p-4 mx-auto relative z-10 w-full pt-8 md:pt-12 px-2">
           <div className="text-4xl pb-5 md:text-7xl px-6 text-center font-semibold  text-[#39FF14]"
           >
             Great, Grow And <br /> Scale Your Bussiness

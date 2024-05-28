@@ -78,7 +78,6 @@ export default function Home() {
         <div ref={servicesRef}>
         <Services />
         </div>
-        <Get/>
 
 
         <div ref={websiteDesignRef}>
@@ -99,6 +98,8 @@ export default function Home() {
          */}
        
         <Testmonials/>
+        <Get/>
+
         <div ref={brandsRef}>
           {/* <Brands /> */}
         </div>
