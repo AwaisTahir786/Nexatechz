@@ -1,25 +1,17 @@
 "use client";
 
-import Brands from "@/components/Brands";
-import GraphicDesign from "@/components/GraphicDesign";
 import HeroSection from "@/components/HeroSection";
 import Navbar from "@/components/Navbar";
 import Services from "@/components/Services";
-import ShopifyStore from "@/components/ShopifyStore";
 import Sliderone from "@/components/Sliderone";
-import Website from "@/components/Website";
-import { CardHoverEffectDemo } from "./snippets/card-hover-snippet";
-import FAQ from "@/components/FAQ";
 import { useRef } from "react";
-import { DiEnvato } from "react-icons/di";
 import Testmonials from "@/components/Testmonials";
 import Pricing from "@/components/Pricing";
-import Websection from "@/components/Websection";
 import Easysteps from "@/components/Easysteps";
-import Easystepsweb from "@/components/Easystepsweb";
 import Pricingweb from "@/components/Pricingweb";
-import Footer from "@/components/Footer";
 import Get from "@/components/Get";
+import Faqnew from "@/components/FAQ/index";
+import FAQ from "@/components/Faq_update";
 
 export default function Home() {
 
@@ -96,13 +88,13 @@ export default function Home() {
         </div>
          */}
        
-        <Testmonials/>
         <Get/>
+        <Testmonials/>
 
-        <div ref={brandsRef}>
-          {/* <Brands /> */}
-        </div>
+
         {/* <FAQ /> */}
+        <FAQ/>
+        {/* <Faqnew/> */}
         {/* <Footer/> */}
       </div>
 

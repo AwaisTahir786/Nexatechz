@@ -16,6 +16,8 @@ function Test() {
 
       <div className=" mx-auto mb-10 ">
         <div className="grid gap-6 max-w-screen md:px-40 lg:grid-cols-2 xl:grid-cols-3">
+
+            {/* kluj+ */}
             <div className="flex flex-col border-2 border-[#39FF14] justify-between w-full h-full	 px-6 py-6 bg-black md:px-6 rounded-2xl md:py-10   dark:bg-trueGray-800">
                     <p className="text-[18px] text-white ">Share a<span className="mx-1 text-white font-extrabold">testimonial</span>that hits some of your benefits from one of your popular customer.</p>
                     <div className="flex items-center mt-8  space-x-3">
