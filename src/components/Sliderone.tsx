@@ -26,10 +26,10 @@ function Sliderone() {
         arrows : false,
         infinite: true,
         slidesToShow: 5,
-        speed:8000,
+        speed:6000,
         autoplay:true,
-        autoplaySpeed:1000,
-        className:"w-full mx-auto cursor-pointer center-mode"
+        autoplaySpeed:500,
+        className:" cursor-pointer center-mode"
     }
 
     if(isMediumScreen){
@@ -43,7 +43,7 @@ function Sliderone() {
     <div className='mt-[-43px]'>
         <Slider {...settings}>
         <>
-        <div className='rounded-sm p-3'>
+        <div className='rounded-sm '>
             <Image
             priority
             src="/1.png"
@@ -57,7 +57,7 @@ function Sliderone() {
 
         
         <>
-        <div className='rounded-sm p-3'>
+        <div className='rounded-sm '>
             <Image
             priority
             src="/2.png"
@@ -70,7 +70,7 @@ function Sliderone() {
         </>
 
         <>
-        <div className='rounded-sm p-3'>
+        <div className='rounded-sm'>
             <Image
             priority
             src="/3.png"
@@ -84,7 +84,7 @@ function Sliderone() {
      
 
         <>
-        <div className='rounded-sm p-3'>
+        <div className='rounded-sm '>
             <Image
             priority
             src="/4.png"
@@ -97,7 +97,7 @@ function Sliderone() {
         </>
 
         <>
-        <div className='rounded-sm p-3'>
+        <div className='rounded-sm'>
             <Image
             priority
             src="/5.png"
@@ -111,7 +111,7 @@ function Sliderone() {
 
         
         <>
-        <div className='rounded-sm p-3'>
+        <div className='rounded-sm '>
             <Image
             priority
             src="/6.png"
@@ -121,7 +121,11 @@ function Sliderone() {
             className='rounded-2xl'
              />
         </div>
-        <div className='rounded-sm p-3'>
+       
+        </>
+
+        <>
+        <div className='rounded-sm '>
             <Image
             priority
             src="/7.png"
@@ -131,7 +135,10 @@ function Sliderone() {
             className='rounded-2xl'
              />
         </div>
-        <div className='rounded-sm p-3'>
+       
+        </>
+        <>
+        <div className='rounded-sm '>
             <Image
             priority
             src="/8.png"
@@ -141,7 +148,10 @@ function Sliderone() {
             className='rounded-2xl'
              />
         </div>
-        <div className='rounded-sm p-3'>
+       
+        </>
+        <>
+        <div className='rounded-sm '>
             <Image
             priority
             src="/9.png"
@@ -151,7 +161,10 @@ function Sliderone() {
             className='rounded-2xl'
              />
         </div>
-        <div className='rounded-sm p-3'>
+       
+        </>
+        <>
+        <div className='rounded-sm '>
             <Image
             priority
             src="/10.png"
@@ -161,7 +174,10 @@ function Sliderone() {
             className='rounded-2xl'
              />
         </div>
-        <div className='rounded-sm p-3'>
+       
+        </>
+        <>
+        <div className='rounded-sm '>
             <Image
             priority
             src="/11.png"
@@ -171,7 +187,10 @@ function Sliderone() {
             className='rounded-2xl'
              />
         </div>
-        <div className='rounded-sm p-3'>
+       
+        </>
+        <>
+        <div className='rounded-sm '>
             <Image
             priority
             src="/12.png"
@@ -181,7 +200,9 @@ function Sliderone() {
             className='rounded-2xl'
              />
         </div>
+       
         </>
+        
         </Slider>
         
     </div>
