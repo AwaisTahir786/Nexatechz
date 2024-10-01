@@ -37,25 +37,6 @@ export const projects = [
           "Secure authentication solutions for your website or app. We use the latest technology to keep your data safe.",
       
       },
-      // {
-      //   icon : <div className="bg-white p-4 rounded-full"><PiMegaphone className="w-8 h-8 text-blue-600" /></div>,
-      //   title: "Social Media",
-      //   description:
-      //     "We offer social media management and ad creation services. We can help you grow your social media presence and reach new customers.",
-      
-      // },
-      // {
-      //   icon : <div className="bg-white p-4 rounded-full"><PiAppStoreLogo className="w-8 h-8 text-blue-600" /></div>,
-      //   title: "App Development",
-      //   description:
-      //     "We build custom mobile apps for iOS and Android. Our apps are designed to be user-friendly and performant.",
-      
-      // },
-      // {
-      //   icon : <div className="bg-white p-4 rounded-full"><PiHeadsetFill className="w-8 h-8 text-blue-600" /></div>,
-      //   title: "Support",
-      //   description:
-      //     "We offer support for all our clients. We are here to help you with any issues or questions you may have.",
-     
-      // },
+    
+   
 ];
