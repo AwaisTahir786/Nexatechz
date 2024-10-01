@@ -5,7 +5,7 @@ const Easysteps = () => {
     return (
         <section className="h-full min-h-screen w-full bg-black md:mt-14 p-4">
 <div
-                className="text-4xl font-bold md:text-4xl px-6 pb-2 text-center bg-clip-text text-[#39FF14] "
+                className="text-3xl font-bold md:text-4xl px-6 pb-2 text-center bg-clip-text text-[#39FF14] "
             >
                 A professional Logo and Website in
                 three easy steps

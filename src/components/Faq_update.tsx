@@ -6,13 +6,13 @@ import Image from "next/image";
 const FAQ = () => {
   return (
     <div>
-      <h2 className="text-4xl md:text-4xl font-bold text-center mt-20 mb-20 text-[#39FF14] ">
+      <h2 className="text-3xl md:text-4xl font-bold text-center mt-20 mb-20 text-[#39FF14] ">
         Questions? Answers.
       </h2>
 
       <div
         id="faq"
-        className="lg:mt-[0rem] space-y-6 px-32 pt-10 pb-20 mx-28 my-20 bg-gradient-to-t bg-[#131313] text-white rounded-2xl flex flex-col justify-start"
+        className="lg:mt-[0rem] space-y-6 p-10 md:px-20 lg:px-32  pt-10 pb-20 md:mx-28 my-20 bg-gradient-to-t bg-[#131313] text-white rounded-2xl flex flex-col justify-start"
       >
         <div className="flex flex-col lg:flex-row items-start lg:space-x-20 lg:pt-10 space-y-10 lg:space-y-0">
           <div className="grid md:w-2/3 divide-y divide-white/10">

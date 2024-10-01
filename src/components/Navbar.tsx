@@ -31,13 +31,13 @@ function Navbar({ScrollGraphicsDesign,ScrollToBrands,ScrollToShopifySTore,Scroll
             alt='logo'
             width={600}
             height={600}
-            className='w-10 h-10 md:h-auto md:w-60'
+            className='w-28 h-auto md:h-auto md:w-60'
             />
         </Link>
        </div>
 
         {/* navbar content */}
-        <div className='cursor-pointer hidden md:flex space-x-10 md:mr-10 items-center
+        <div className='cursor-pointer hidden lg:flex space-x-10 md:mr-10 items-center
          text-white bg-clip-text '>
   <div onClick={ScrollWebsiteDesign} className='hover:text-[#39FF14] text-lg '>Website Design</div>
   <div onClick={ScrollGraphicsDesign} className='hover:text-[#39FF14] text-lg'>Graphics Design</div>

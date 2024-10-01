@@ -7,7 +7,7 @@ function Test() {
     
 <section className="bg-black  mt-[-33px]">
   <div className="mx-auto   ">
-  <div className='text-4xl mb-14 font-bold py-10 md:pb-4 text-[#39FF14] md:text-4xl text-center bg-clip-text '>
+  <div className='text-3xl mb-14 font-bold py-10 md:pb-4 text-[#39FF14] md:text-4xl text-center bg-clip-text '>
                 Testmonials<br/>
             </div>
       {/* <div className="mx-auto max-w-screen-lg text-lg text-center mb-8 lg:mb-16">

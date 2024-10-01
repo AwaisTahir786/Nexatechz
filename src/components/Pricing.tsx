@@ -70,17 +70,17 @@ const plans = [
 
 const Pricing = () => {
   return (
-    <div className="w-full xl:mt-[-220px] md:items-center md:justify-center
+    <div className="w-full xl:mt-[-220px] md:mt-14 md:items-center md:justify-center
      bg-black/[0.96] antialiased 
      bg-grid-white/[0.02] relative overflow-hidden">
 
       
 
       <div className="flex items-center justify-center flex-col">
-        <div className="text-4xl md:text-4xl font-bold pb-10 md:pb-16 text-[#39FF14] px-6 text-center bg-clip-text  bg-gradient-to-b from-neutral-50 to-neutral-500 bg-opacity-50">
+        <div className="text-3xl md:text-4xl font-bold pb-10 md:pb-16 text-[#39FF14] px-6 text-center bg-clip-text  bg-gradient-to-b from-neutral-50 to-neutral-500 bg-opacity-50">
           Simple Pricing  For Logo Designing
         </div>
-        <div className="grid grid-cols-1  mt-6  md:grid-cols-2 lg:grid-cols-3 gap-6 md:w-4/5 cursor-pointer pb-6  items-start ">
+        <div className="grid grid-cols-1 mt-6  md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 gap-6 md:w-4/5 cursor-pointer pb-6  items-start ">
           {plans.map((plan, index) => (
             <div
               key={plan.name}
