@@ -40,7 +40,7 @@ function Sliderone() {
     }
 
   return (
-    <div className='mt-[-43px]'>
+    <div className='mt-[-70px]'>
         <Slider {...settings}>
         <>
         <div className='rounded-sm '>
@@ -48,8 +48,8 @@ function Sliderone() {
             priority
             src="/1.png"
             alt='1image'
-            width={300}
-            height={300}
+            width={350}
+            height={350}
             className='rounded-2xl'
              />
         </div>
@@ -62,8 +62,8 @@ function Sliderone() {
             priority
             src="/2.png"
             alt='1image'
-            width={300}
-            height={300}
+            width={350}
+            height={350}
             className='rounded-2xl'
              />
         </div>
@@ -75,8 +75,8 @@ function Sliderone() {
             priority
             src="/3.png"
             alt='1image'
-            width={300}
-            height={300}
+            width={350}
+            height={350}
             className='rounded-2xl'
              />
         </div>
@@ -89,8 +89,8 @@ function Sliderone() {
             priority
             src="/4.png"
             alt='1image'
-            width={300}
-            height={300}
+            width={350}
+            height={350}
             className='rounded-2xl'
              />
         </div>
@@ -102,8 +102,8 @@ function Sliderone() {
             priority
             src="/5.png"
             alt='1image'
-            width={300}
-            height={300}
+            width={350}
+            height={350}
             className='rounded-2xl'
              />
         </div>
@@ -116,8 +116,8 @@ function Sliderone() {
             priority
             src="/6.png"
             alt='1image'
-            width={300}
-            height={300}
+            width={350}
+            height={350}
             className='rounded-2xl'
              />
         </div>
@@ -130,8 +130,8 @@ function Sliderone() {
             priority
             src="/7.png"
             alt='1image'
-            width={300}
-            height={300}
+            width={350}
+            height={350}
             className='rounded-2xl'
              />
         </div>
@@ -143,8 +143,8 @@ function Sliderone() {
             priority
             src="/8.png"
             alt='1image'
-            width={300}
-            height={300}
+            width={350}
+            height={350}
             className='rounded-2xl'
              />
         </div>
@@ -156,8 +156,8 @@ function Sliderone() {
             priority
             src="/9.png"
             alt='1image'
-            width={300}
-            height={300}
+            width={350}
+            height={350}
             className='rounded-2xl'
              />
         </div>
@@ -169,8 +169,8 @@ function Sliderone() {
             priority
             src="/10.png"
             alt='1image'
-            width={300}
-            height={300}
+            width={350}
+            height={350}
             className='rounded-2xl'
              />
         </div>
@@ -182,8 +182,8 @@ function Sliderone() {
             priority
             src="/11.png"
             alt='1image'
-            width={300}
-            height={300}
+            width={350}
+            height={350}
             className='rounded-2xl'
              />
         </div>
@@ -195,8 +195,8 @@ function Sliderone() {
             priority
             src="/12.png"
             alt='1image'
-            width={300}
-            height={300}
+            width={350}
+            height={350}
             className='rounded-2xl'
              />
         </div>
