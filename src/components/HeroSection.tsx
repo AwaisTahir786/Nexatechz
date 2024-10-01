@@ -7,7 +7,7 @@ import Image from 'next/image';
 function HeroSection() {
   return (
     <div className="p-4 mx-auto relative z-10 w-full pt-8 md:pt-12 px-2">
-          <div className="text-6xl pb-5 md:text-7xl px-6 text-center font-semibold  text-[#39FF14]"
+          <div className="text-6xl pb-5 md:text-[80px] px-6 text-center font-semibold  text-[#39FF14]"
           >
             Web Design that <br />
 
@@ -49,7 +49,7 @@ Start a Project
 
 
           
-      <button     className="inline-flex mt-10 items-center text-black  justify-center rounded-xl bg-[#39FF14] p-3.5 lg:p-4 lg:px-12 px-10  text-md lg:text-lg font-bold text-primary tracking-tight cta-btn cursor-pointer hover:scale-105 transition duration-300 ease-out w-full lg:w-auto"
+      <button     className="inline-flex mt-10 items-center text-black  justify-center rounded-xl bg-[#39FF14] p-3.5 lg:p-4 lg:px-12 px-10  text-2xl font-bold text-primary tracking-tight cta-btn cursor-pointer hover:scale-105 transition duration-300 ease-out w-full lg:w-auto"
       > 
         Book a Call
        </button> <br />

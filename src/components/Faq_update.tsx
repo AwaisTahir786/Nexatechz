@@ -6,7 +6,7 @@ import Image from "next/image";
 const FAQ = () => {
   return (
     <div>
-      <h2 className="text-4xl md:text-5xl font-bold text-center mt-24 mb-24 text-[#39FF14] ">
+      <h2 className="text-4xl md:text-4xl font-bold text-center mt-20 mb-20 text-[#39FF14] ">
         Questions? Answers.
       </h2>
 

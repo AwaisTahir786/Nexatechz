@@ -5,14 +5,14 @@ import Image from 'next/image'
 function Test() {
   return (
     
-<section className="bg-black  md:mt-[-10px]">
+<section className="bg-black  mt-[-33px]">
   <div className="mx-auto   ">
-  <div className='text-4xl font-bold py-10 md:pb-4 text-[#39FF14] md:text-5xl text-center bg-clip-text '>
+  <div className='text-4xl mb-14 font-bold py-10 md:pb-4 text-[#39FF14] md:text-4xl text-center bg-clip-text '>
                 Testmonials<br/>
             </div>
-      <div className="mx-auto max-w-screen-lg text-lg text-center mb-8 lg:mb-16">
+      {/* <div className="mx-auto max-w-screen-lg text-lg text-center mb-8 lg:mb-16">
           <h2 className="  text-white ">We have worked with thousands of amazing peoples</h2>
-      </div> 
+      </div>  */}
 
       <div className=" mx-auto mb-10 ">
         <div className="grid gap-6 max-w-screen md:px-40 lg:grid-cols-2 xl:grid-cols-3">

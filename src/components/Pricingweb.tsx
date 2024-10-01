@@ -70,17 +70,17 @@ const plans = [
 
 const Pricingweb = () => {
   return (
-    <div className="w-full md:mt-20  md:items-center md:justify-center
+    <div className="w-full md:mt-16  md:items-center md:justify-center
      bg-black/[0.96] antialiased 
      bg-grid-white/[0.02] relative overflow-hidden">
 
       
 
       <div className="flex items-center justify-center flex-col">
-        <div className="text-4xl md:text-5xl font-bold pb-10 md:pb-16 text-[#39FF14] px-6 text-center bg-clip-text  bg-gradient-to-b from-neutral-50 to-neutral-500 bg-opacity-50">
+        <div className="text-4xl md:text-4xl font-bold pb-10 md:pb-16 text-[#39FF14] px-6 text-center bg-clip-text  bg-gradient-to-b from-neutral-50 to-neutral-500 bg-opacity-50">
           Simple Pricing  For Logo Designing
         </div>
-        <div className="grid md:grid-cols-3 mt-8 gap-6 md:w-4/5 cursor-pointer pb-6  items-start ">
+        <div className="grid md:grid-cols-3 mt-6 gap-6 md:w-4/5 cursor-pointer pb-6  items-start ">
           {plans.map((plan, index) => (
             <div
               key={plan.name}

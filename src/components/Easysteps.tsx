@@ -5,14 +5,14 @@ const Easysteps = () => {
     return (
         <section className="h-full min-h-screen w-full bg-black md:mt-14 p-4">
 <div
-                className="text-4xl font-bold md:text-5xl px-6 pb-2 text-center bg-clip-text text-[#39FF14] "
+                className="text-4xl font-bold md:text-4xl px-6 pb-2 text-center bg-clip-text text-[#39FF14] "
             >
                 A professional Logo and Website in
                 three easy steps
 
             </div>
 
-            <div className="bg-black relative block px-6 py-8 md:py-0 md:px-14 md:pt-10">
+            <div className="bg-black relative block px-6 py-8 md:py-0 md:px-14 md:pt-8">
 
                 <div className="relative mx-auto max-w-6xl z-10 grid grid-cols-1 gap-10 pt-14 sm:grid-cols-2 lg:grid-cols-3">
                     <div className="rounded-md border border-black bg-neutral-900/50 p-8 text-center shadow">
