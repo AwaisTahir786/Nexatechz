@@ -6,13 +6,13 @@ import Image from "next/image";
 const FAQ = () => {
   return (
     <div>
-      <h2 className="text-3xl md:text-5xl font-bold text-center mt-10 mb-16 text-white">
+      <h2 className="text-4xl md:text-5xl font-bold text-center mt-24 mb-24 text-[#39FF14] ">
         Questions? Answers.
       </h2>
 
       <div
         id="faq"
-        className="lg:mt-[0rem] space-y-6 px-10 pt-10 pb-20 mx-20 my-20 bg-gradient-to-t bg-[#131313] text-white rounded-2xl flex flex-col justify-start"
+        className="lg:mt-[0rem] space-y-6 px-32 pt-10 pb-20 mx-28 my-20 bg-gradient-to-t bg-[#131313] text-white rounded-2xl flex flex-col justify-start"
       >
         <div className="flex flex-col lg:flex-row items-start lg:space-x-20 lg:pt-10 space-y-10 lg:space-y-0">
           <div className="grid md:w-2/3 divide-y divide-white/10">
@@ -101,16 +101,16 @@ const FAQ = () => {
               />
             </a>
             <div className="flex flex-col items-center justify-center">
-              <span className="lg:text-xl xl:text-2xl text-white font-medium ">
+              <span className="lg:text-xl xl:text-xl text-white font-medium ">
                 Have more questions?
               </span>
-              <span className="lg:text-xl xl:text-2xl text-white font-medium ">
+              <span className="lg:text-xl xl:text-xl text-white font-medium ">
                 Book a FREE intro call.
               </span>
             </div>
             <a
               href="https://cal.com/namya/15min"
-              className="rounded-xl bg-white text-black p-3.5 lg:p-4 px-10 lg:px-16 text-md lg:text-lg font-bold text-primary tracking-tight cta-btn cursor-pointer hover:scale-105 transition duration-300 ease-out"
+              className="rounded-xl bg-[#39FF14] text-black p-3.5 lg:p-4 px-10 lg:px-16 text-md lg:text-lg font-bold text-primary tracking-tight cta-btn cursor-pointer hover:scale-105 transition duration-300 ease-out"
             >
               Book a Call
             </a>

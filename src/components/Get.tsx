@@ -5,7 +5,7 @@ import { FaPen } from "react-icons/fa";
 
 const Get = () => {
     return (
-        <section className='p-10 mb-20 md:mx-32 mt-20 bg-[#39FF14] border-2 border-[#39FF14] rounded-xl'>
+        <section className='p-10 mb-20 md:mx-32 mt-24 bg-[#39FF14] border-2 border-[#39FF14] rounded-xl'>
             <div className=' py-10 ' >
                 <div className='text-white flex flex-col justify-center items-center'>
                     <div className='text-black font-bold text-2xl mb-4 border-2 border-black rounded-full p-2 bg-[#37ff14]'>Delivery</div>
