@@ -50,7 +50,6 @@ function Sliderone() {
             alt='1image'
             width={350}
             height={350}
-            className='rounded-2xl'
              />
         </div>
         </>
