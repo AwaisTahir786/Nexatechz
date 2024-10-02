@@ -31,7 +31,7 @@ function Navbar({ScrollGraphicsDesign,ScrollToBrands,ScrollToShopifySTore,Scroll
             alt='logo'
             width={600}
             height={600}
-            className='w-28 h-auto md:h-auto md:w-60'
+            className='w-52 h-auto md:h-auto md:w-60'
             />
         </Link>
        </div>
@@ -48,7 +48,7 @@ function Navbar({ScrollGraphicsDesign,ScrollToBrands,ScrollToShopifySTore,Scroll
 
 
         {/* mobile Menu */}
-        {isDropDrownVisible ? (
+        {/* {isDropDrownVisible ? (
            <div className='h-8 w-8 text-slate-300 cursor-pointer md:hidden'
            onClick={toggleDropDown}>
 
@@ -61,7 +61,7 @@ function Navbar({ScrollGraphicsDesign,ScrollToBrands,ScrollToShopifySTore,Scroll
           <AlignJustify
            className='h-8 w-8 text-slate-300 cursor-pointer md:hidden' 
            onClick={toggleDropDown}/>
-        )}
+        )} */}
        
        <div className='hidden md:flex md:pr-8 md:pt-12'>
        <Link href={"https://wa.me/03114366363"} className="inline-flex h-12 animate-shimmer items-center justify-center rounded-md  border-[#39FF14] border-2 bg-[linear-gradient(110deg,#000103,45%,#1e2631,55%,#000103)] bg-[length:200%_100%] px-6 font-medium text-white hover:text-[#39FF14] transition-colors focus:outline-none focus:ring-2 focus:ring-[#39FF14] focus:ring-offset-2 focus:ring-offset-[#39FF14]">
