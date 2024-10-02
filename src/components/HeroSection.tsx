@@ -7,7 +7,7 @@ import Image from 'next/image';
 function HeroSection() {
   return (
     <div className="p-4 mx-auto relative z-10 w-full pt-8 md:pt-12 px-2">
-          <div className=" text-5xl md:text-6xl pb-5 md:text-[80px] px-6 text-center font-semibold  text-[#39FF14]"
+          <div className=" text-4xl md:text-6xl pb-5 md:text-[80px] px-6 text-center font-semibold  text-[#39FF14]"
           >
             Web Design that <br />
 
