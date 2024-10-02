@@ -23,7 +23,7 @@ function Navbar({ScrollGraphicsDesign,ScrollToBrands,ScrollToShopifySTore,Scroll
     <div className=' p-6 md:p-0 flex flex-row justify-between z-50 text-white'>
 
        {/* image  */}
-       <div>
+       <div className=''>
         <Link href={"/"}>
             <Image 
             priority
@@ -31,7 +31,7 @@ function Navbar({ScrollGraphicsDesign,ScrollToBrands,ScrollToShopifySTore,Scroll
             alt='logo'
             width={600}
             height={600}
-            className='w-52 h-auto md:h-auto md:w-60'
+            className='w-[180px] h-auto md:h-auto md:w-60 '
             />
         </Link>
        </div>
