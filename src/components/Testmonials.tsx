@@ -5,7 +5,7 @@ import Image from 'next/image'
 function Test() {
   return (
     
-<section className="bg-black  md:mt-[-33px]">
+<section className="bg-black  ">
   <div className="mx-auto   ">
   <div className='text-3xl md:mb-14 font-bold pb-10 md:pb-4 text-[#39FF14] md:text-4xl text-center bg-clip-text '>
                 Testmonials<br/>
