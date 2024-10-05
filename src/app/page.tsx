@@ -12,7 +12,7 @@ import Pricingweb from "@/components/Pricingweb";
 import Get from "@/components/Get";
 import Faqnew from "@/components/FAQ/index";
 import FAQ from "@/components/Faq_update";
-
+import Footer from "@/components/Footer";
 export default function Home() {
 
 
@@ -95,7 +95,7 @@ export default function Home() {
         {/* <FAQ /> */}
         <FAQ/>
         {/* <Faqnew/> */}
-        {/* <Footer/> */}
+        <Footer/>
       </div>
 
   );
