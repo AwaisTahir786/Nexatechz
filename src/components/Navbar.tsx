@@ -31,7 +31,7 @@ function Navbar({ScrollGraphicsDesign,ScrollToBrands,ScrollToShopifySTore,Scroll
             alt='logo'
             width={600}
             height={600}
-            className='w-[180px] h-auto md:h-auto md:w-60 '
+            className='w-[180px] h-auto md:h-auto md:w-60 md:ml-0 ml-[78px] '
             />
         </Link>
        </div>

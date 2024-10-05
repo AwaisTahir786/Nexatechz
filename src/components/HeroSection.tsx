@@ -49,10 +49,10 @@ Start a Project
 
 
           
-      <button     className="inline-flex mt-10 items-center text-black  justify-center rounded-xl bg-[#39FF14] p-3.5 lg:p-4 lg:px-12 px-10  text-2xl font-bold text-primary tracking-tight cta-btn cursor-pointer hover:scale-105 transition duration-300 ease-out w-full lg:w-auto"
+      <button     className="inline-flex mt-10 items-center text-black  justify-center rounded-xl bg-[#39FF14] p-3.5 lg:p-4 lg:px-12  md:text-2xl text:xl font-bold text-primary tracking-tight cta-btn cursor-pointer hover:scale-105 transition duration-300 ease-out w-full lg:w-auto"
       > 
         Book a Call
-       </button> <br />
+       </button> 
 
        </div>
      
