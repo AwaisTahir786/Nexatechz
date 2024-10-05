@@ -13,13 +13,13 @@ function HeroSection() {
 
              <TypeAnimation
   sequence={[
-    'double leads.',
+    'Double Leads.',
     1000,
-    'drive sales.',
+    'Drive Sales.',
     1000,
-    'double leads.',
+    'Double Leads.',
     1000,
-    'drive sales.',
+    'Drive Sales.',
     1000,
   ]}
   wrapper="span"

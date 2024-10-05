@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
-import { Varela_Round } from "next/font/google";
+import { Poppins } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
 
-const inter = Varela_Round ({ subsets: ["latin"],
+const inter = Poppins ({ subsets: ["latin"],
 weight:"400" });
 
 export const metadata: Metadata = {
