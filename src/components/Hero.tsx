@@ -30,7 +30,7 @@ const Hero = () => {
 
   return (
     <div
-      className="bg-[url('/bg.jpg')] bg-cover bg-center min-h-screen"
+      className="bg-[url('/bg.jpg')] bg-cover bg-center min-h-screen "
     >
       <Navbar
         ScrollGraphicsDesign={scrollToGraphicDesign}
