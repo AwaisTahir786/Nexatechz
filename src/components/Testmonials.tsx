@@ -20,7 +20,7 @@ function Test() {
             {/* kluj+ */}
             <div className="flex flex-col text-md font-extralight border-2 border-[#39FF14] justify-between w-full h-full	 px-6 py-6 bg-black md:px-6 rounded-2xl md:py-10   dark:bg-trueGray-800">
                     <p className=" text-white ">"Hira is an Exceptional Graphic Designer! The Brand Style Guides she did for us were Magnificent! I would recommend her 100%."</p>
-                    <div className="flex items-center space-x-3">
+                    <div className="flex items-center mt-8 space-x-3">
                         <div className="flex-shrink-0 overflow-hidden rounded-full w-14 h-14">
                             <Image alt="Avatar" src="https://images.unsplash.com/photo-1511485977113-f34c92461ad9?crop=faces&amp;cs=tinysrgb&amp;fit=crop&amp;fm=jpg&amp;ixid=MnwxfDB8MXxhbGx8fHx8fHx8fHwxNjIwMTQ5ODEx&amp;ixlib=rb-1.2.1&amp;q=80&amp;w=100&amp;h=100" loading="lazy" height={100} width={100}/>
                         </div>
