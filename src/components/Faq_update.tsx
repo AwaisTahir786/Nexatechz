@@ -44,7 +44,7 @@ const FAQ = () => {
               <div key={index} className="py-5">
                 <details className="group w-full">
                   <summary className="flex cursor-pointer list-none items-center justify-between space-x-5">
-                    <span className="lg:text-2xl md:text-xl text-white font-medium">
+                    <span className="lg:text-md md:text-md text-white font-extralight">
                       {question}
                     </span>
                     <span className="transition duration-300 group-open:rotate-45">
@@ -64,7 +64,7 @@ const FAQ = () => {
                     </span>
                   </summary>
                   <div className="pt-3">
-                    <span className="group-open:animate-fadeIn description text-start leading-7 w-full md:w-4/5 text-sm font-light">
+                    <span className="group-open:animate-fadeIn description text-start leading-7 w-full md:w-4/5 text-sm font-extralight">
                       {answer}
                     </span>
                   </div>
@@ -99,10 +99,10 @@ const FAQ = () => {
                 />
               </a>
               <div className="flex flex-col items-center justify-center">
-                <span className="lg:text-xl md:text-lg xl:text-xl text-white font-medium ">
+                <span className="lg:text-md md:text-md xl:text-md text-white font-medium ">
                   Have more questions?
                 </span>
-                <span className="lg:text-xl md:text-lg xl:text-xl text-white font-medium ">
+                <span className="lg:text-md md:text-md xl:text-md text-white font-medium ">
                   Book a FREE intro call.
                 </span>
               </div>

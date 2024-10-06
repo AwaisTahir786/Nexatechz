@@ -37,7 +37,7 @@ const Footer = () => {
         <div className="mt-2 md:order-1 md:mt-0 flex flex-col items-center md:items-start">
           <Image alt="footer logo" loading="lazy" width="150" height="50" src="/logo/logo.png" />
           <p className="text-center md:text-left text-xs leading-5 text-[#39FF14] mt-2">
-            © Supafast 2024. All rights reserved.
+            © nexatechz 2024. All rights reserved.
           </p>
         </div>
       </div>

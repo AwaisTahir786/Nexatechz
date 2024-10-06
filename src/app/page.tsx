@@ -13,6 +13,7 @@ import Get from "@/components/Get";
 import Faqnew from "@/components/FAQ/index";
 import FAQ from "@/components/Faq_update";
 import Footer from "@/components/Footer";
+import Hero from "@/components/Hero";
 export default function Home() {
 
 
@@ -48,17 +49,10 @@ export default function Home() {
 
   return (
     <div className="w-full md:items-center md:justify-center bg-black bg-grid-white/[0.02] relative overflow-hidden ">
-      <Navbar
-        ScrollGraphicsDesign={scrollToGraphicDesign}
-        ScrollToBrands={scrollToBrands}
-        ScrollToShopifySTore={scrollToShopifyStores}
-        ScrollWebsiteDesign={scrollToWebsiteDesign} // Pass the function instead of the ref
-      />{" "}
-      {/* <Spotlight className="hidden md:flex md:left-80 " fill="white" /> */}
-      <HeroSection />
+      
 
 
-    
+    <Hero/>
        
 
 
